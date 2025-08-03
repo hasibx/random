@@ -11,10 +11,10 @@ const ll mod = 1000000007;
 #define endcases }
 #define pb push_back
 #define pii pair<int,int>
-#define vi vector<int>
-#define vvi vector<vector<int>>
+#define vi vector<ll>
+#define vvi vector<vector<ll>>
 #define vcin(a,n) vector<ll> a(n); f(i,0,n) cin >> a[i];
-#define vvcin(matrix, n, m) vvi matrix(n, vector<int>(m)); f(i,0,n) f(j,0,m) cin >> matrix[i][j];
+#define vvcin(matrix, n, m) vvi matrix(n, vector<char>(m)); f(i,0,n) f(j,0,m) cin >> matrix[i][j];
 #define vpi vector<pair<int,int>>
 #define mi map<int,int>
 #define pll pair<ll,ll>
@@ -22,6 +22,7 @@ const ll mod = 1000000007;
 #define vpll vector<pair<ll,ll>>
 #define mll map<ll,ll>
 #define SORT(x) sort(x.begin(),x.end())
+#define SORTR(x) sort(x.begin(), x.end(), greater<>())
 #define ALL(x) (x).begin(), (x).end()
 #define YY cout << "YES\n"
 #define NN cout << "NO\n"
@@ -35,10 +36,15 @@ void io(){
 }
 
 int main() {
-    io();
-    fast; 
+ 
+  io();
+  fast;
+ 
+// Code
 
-    
 
-    return 0;
+
+  
+
+  return 0;
 }
